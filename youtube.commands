@@ -1,0 +1,77 @@
+history
+    1  mkdir temp
+    2  pwd
+    3  ls
+    4  cd temp
+    5  man wget
+    6  wget https://github.com/db4jstrain/learning-aws/blob/main/gettysburg.address
+    7  ls
+    8  ls -l
+    9  ls -ltra
+   10  cat gettysburg.address 
+   11  ls
+   12  rm gettysburg.address 
+   13  vi gettysburg.address
+   14  less gettysburg.address 
+   15  more gettysburg.address 
+   16  less gettysburg.address 
+   17  for a in `cat gettysburg.address`; do mkdir $a; done
+   18  ls
+   19  for a in `cat gettysburg.address`; do mkdir $a; done
+   20  ls
+   21  ls -l
+   22  ls -lt
+   23  ls -ltr
+   24  ls -ltrah
+   25  ls p*
+   26  ls c*
+   27  ls c*d
+   28  ls con?e*d
+   29  ls f*
+   30  ls f??
+   31  ls f[aeiou]*
+   32  ls [aeiou]*
+   33  ls -l
+   34  ls
+   35  for a in `ls`; do echo -n $a; done
+   36  cat gettysburg.address 
+   37  clear
+   38  cat gettysburg.address 
+   39  touch 1
+   40  ls
+   41  touch 2 3 4 
+   42  ls 
+   43  ls -ltrah
+   44  touch 123
+   45  ls
+   46  ls bad*
+   47  ls i*
+   48  ls i *
+   49  ls | grep any
+   50  ls | grep ar
+   51  ls | grep an
+   52  man grep
+   53  ls | grep live
+   54  ls | grep li*
+   55  clear
+   56  ls bad*
+   57  ls bad* > guber
+   58  cat guber
+   59  ls bad* 2> guber
+   60  cat guber
+   61  ls e*
+   62  ls e* badfile
+   63  ls e* badfile > try1
+   64  ls e* badfile 2> try1
+   65  ls e* badfile > try1
+   66  ls e* badfile 2> try2
+   67  ls e* badfile > try3 2>&1
+   68  cat try1
+   69  cat try2 
+   70  cat try3
+   71  more try*
+   72  cp gettysburg.address gettysburg.address.old
+   73  vi gettysburg.address
+   74  cat gettysburg.address
+   75  history
+[ec2-user@ip-172-31-47-187 temp]$ :%s/we/you/g^C
