@@ -1,0 +1,72 @@
+   77  pwd
+   78  cd /
+   79  ls
+   80  ls home
+   81  ls /home
+   82  cd home
+   83  pwd
+   84  cd /home
+   85  pwd
+   86  cd home
+   87  ls 
+   88  ls ec2-user/
+   89  ls /home/ec2-user/
+   90  cd ../home/ec2-user
+   91  ls ../home/ec2-user
+   92  cd /home/ec2-user/
+   93  ls ../home/ec2-user
+   94  ls ../../home/ec2-user
+   95  ls
+   96  ls temp
+   97  ls -l
+   98  cd temp
+   99  ls -l
+  100  ls -lt
+  101  ls -ltr
+  102  ls -ltrh
+  103  ls -ltrha
+  104  touch .1
+  105  ls
+  106  ls -a
+  107  man ls
+  108  ls -ltrah > myfile.txt
+  109  cat myfile.txt 
+  110  cd ..
+  111  ls
+  112  cd /
+  113  ls
+  114  ls > myfile.txt
+  115  ls > /home/ec2-user/myfile.txt
+  116  cat /home/ec2-user/myfile.txt
+  117  ls > /home/ec2-user/myfile.txt
+  118  cat /home/ec2-user/myfile.txt
+  119  ls >> /home/ec2-user/myfile.txt
+  120  cat /home/ec2-user/myfile.txt
+  121  more /home/ec2-user/myfile.txt
+  122  ls >> /home/ec2-user/myfile.txt
+  123  more /home/ec2-user/myfile.txt
+  124  less /home/ec2-user/myfile.txt
+  125  clear
+  126  which clear
+  127  locate clear
+  128  sudo updatedb
+  129  sudo yum -y install mlocate
+  130  locate clear
+  131  sudo updatedb
+  132  locate clear
+  133  find . | grep clear
+  134  pwd
+  135  cd ~
+  136  pwd
+  137  find . | grep clear
+  138  find / | grep clear
+  139  ls
+  140  cd temp
+  141  for a in `ls` ; echo $a
+  142  for a in `ls`; do echo $a; done
+  143  for a in `ls`; do echo $a; sleep 5; done
+  144  jobs
+  145  bg 1
+  146  jobs
+  147  history
+
